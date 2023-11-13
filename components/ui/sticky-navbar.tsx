@@ -85,8 +85,8 @@ function StickyNavbar() {
           ))}
         </ul>
       </nav>
-      <button className="text-neutral-100 font-semibold w-full xs:text-md sm:text-md lg:text-lg bg-violet-700 lg:py-2 xs:py-1 sm:py-1 px-2 rounded-md bg-gradient-to-r hover:from-violet-500 hover:to-yellow-500 hover:shadow-lg transition duration-500 delay-150">
-        {h("button1")}
+      <button className="text-neutral-100 font-semibold w-full xs:text-sm sm:text-sm lg:text-lg bg-violet-700 lg:py-2 xs:py-1 sm:py-1 px-2 rounded-md bg-gradient-to-r hover:from-violet-500 hover:to-yellow-500 hover:shadow-lg transition duration-500 delay-150">
+        <Link href={`https://wa.link/${h("chat")}`}>{h("button1")}</Link>
       </button>
     </div>
   );

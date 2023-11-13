@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface CardItemProps {
@@ -27,7 +28,7 @@ function CardOutline({ data }: CardOutlineProps) {
       </div>
       <div className="flex lg:flex-row xs:flex-col sm:flex-col justify-between">
         <button className="text-neutral-100 font-normal text-lg bg-violet-700 py-2 px-4 rounded-md bg-gradient-to-r hover:from-violet-500 hover:to-yellow-500 hover:shadow-lg transition duration-500 delay-150">
-          {data.buttonName}
+          <Link href="https://market-form.vercel.app/">{data.buttonName}</Link>
         </button>
 
         <p className="font-semibold text-center underline-offset-4 underline">

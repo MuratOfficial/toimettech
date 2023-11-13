@@ -49,7 +49,7 @@ function ContactForm() {
         <div className="flex flex-col col-span-2">
           <Contacts />
         </div>
-        <div className="flex flex-col col-span-2 lg:px-16 xs:px-6 sm:px-6">
+        <div className="flex flex-col col-span-2 lg:px-16 xs:px-0 sm:px-0">
           {/* Form Body */}
 
           <h1 className="text-md font-normal text-violet-800 pb-8 mt-4 drop-shadow-xl">

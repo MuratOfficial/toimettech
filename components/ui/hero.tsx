@@ -4,6 +4,7 @@ import { Element, Link as ScrollLink } from "react-scroll";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowBigDown } from "lucide-react";
+import Link from "next/link";
 
 function Hero() {
   const t = useTranslations("Hero");
@@ -42,7 +43,7 @@ function Hero() {
         </div>
         <div className="flex flex-row justify-between">
           <button className="text-neutral-100 font-semibold text-xl bg-violet-700 py-2 px-4 rounded-md bg-gradient-to-r hover:from-violet-500 hover:to-yellow-500 hover:shadow-lg transition duration-500 delay-150">
-            {t("button1")}
+            <Link href={`https://wa.link/${t("chat")}`}>{t("button1")}</Link>
           </button>
 
           <button className="text-neutral-100 font-normal text-lg bg-violet-700 py-2 pl-[10px] hover:translate-y-4 h-12 w-12 rounded-full border-transparent border-2 hover:text-violet-700 hover:border-violet-700 hover:bg-transparent transition duration-1000 delay-150">

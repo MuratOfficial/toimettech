@@ -42,7 +42,7 @@ function Contacts() {
           </div>
         </AnimateScrollDown>
         <AnimateScrollDownHorizontalLeft>
-          <div className=" w-full font-semibold text-neutral-700  justify-centerr text-xl">
+          <div className=" w-full font-semibold text-neutral-700  justify-centerr lg:text-xl xs:text-md sm:text-md">
             <span className="flex flex-row gap-x-4">
               <PhoneCall /> +77472156675{" "}
             </span>
