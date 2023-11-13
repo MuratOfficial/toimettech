@@ -1,0 +1,50 @@
+import "./globals.css";
+
+import { Inter } from "next/font/google";
+// Supports weights 400-800
+import "@fontsource-variable/podkova";
+import "@fontsource-variable/montserrat";
+import Navbar from "@/components/ui/navbar";
+import { NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import Favicon from "@/public/favicon.ico";
+
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "kk" }, { locale: "ru" }];
+}
+
+export const metadata: Metadata = {
+  title: "toimetTech",
+  description: "Web Development and Design Company",
+  icons: [{ rel: "icon", url: Favicon.src }],
+};
+
+const inter = Inter({ subsets: ["latin"] });
+
+export default async function RootLayout({
+  children,
+  params: { locale },
+}: {
+  children: React.ReactNode;
+  params: any;
+}) {
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
+
+  return (
+    <html lang={locale}>
+      <body className="overflow-x-hidden">
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Navbar />
+
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

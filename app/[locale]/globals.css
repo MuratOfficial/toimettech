@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  background-color: white;
+  font-family: "Montserrat Variable", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(15 23 42);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 16, 206, 0.575);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 252, 255, 0.87);
+}
+
+.logo {
+  font-family: "Podkova Variable", sans-serif;
+}
+
+/* @keyframes fadeDown {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40%);
+    opacity: 0;
+  }
+}
+
+#first {
+  animation: fadeDown 2s ease 0.2s infinite;
+}
+#second {
+  animation: fadeDown 2s ease 0.4s infinite;
+} */

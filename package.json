@@ -1,0 +1,44 @@
+{
+  "name": "toimettech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.16",
+    "@fontsource-variable/podkova": "^5.0.17",
+    "@fontsource/poppins": "^5.0.8",
+    "@hookform/resolvers": "^3.3.2",
+    "clsx": "^2.0.0",
+    "gsap": "^3.12.2",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "lucide-react": "^0.284.0",
+    "next": "latest",
+    "next-intl": "^2.20.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.48.2",
+    "react-scroll": "^1.9.0",
+    "tailwind-merge": "^1.14.0",
+    "zod": "^3.22.4",
+    "zustand": "^4.4.3"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/locomotive-scroll": "^4.1.1",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-scroll": "^1.8.8",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
