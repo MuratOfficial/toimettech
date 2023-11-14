@@ -47,7 +47,11 @@ export default async function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'AW-11411015331');`}
+            gtag('config', 'AW-11411015331');
+            gtag('event', 'conversion', {'send_to': 'AW-11411015331/LZwJCK7ou_YYEKONmcEq'});
+            
+  gtag('event', 'conversion', {'send_to': 'AW-11411015331/zyiFCJvPx_YYEKONmcEq'});
+`}
         </Script>
       </head>
       <body className="overflow-x-hidden">
