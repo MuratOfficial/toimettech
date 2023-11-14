@@ -9,6 +9,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Favicon from "@/public/favicon.ico";
+import Script from "next/script";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "kk" }, { locale: "ru" }];
@@ -38,6 +39,16 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11411015331" />
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'AW-11411015331');`}
+        </Script>
+      </head>
       <body className="overflow-x-hidden">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
