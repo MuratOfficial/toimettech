@@ -16,8 +16,9 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "toimetTech",
-  description: "Web Development and Design Company",
+  title: "toimetTech - Создаем самые красивые сайты дешево!",
+  description:
+    "Создаем сайты, разрабатываем сайты. Цена от 30000 тг. В Казахстане, Шымкент, Алматы, Астана, Караганда.",
   icons: [{ rel: "icon", url: Favicon.src }],
 };
 
