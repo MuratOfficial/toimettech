@@ -36,8 +36,8 @@ function AboutExperience() {
     },
     {
       name: t("filter3"),
-      category: "Chat Bot",
-      active: true ? active === "Chat Bot" : false,
+      category: "Promo",
+      active: true ? active === "Promo" : false,
     },
   ];
 

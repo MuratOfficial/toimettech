@@ -154,7 +154,7 @@ function ContactForm() {
           </form>
 
           <a
-            href="#"
+            href="https://www.freeprivacypolicy.com/live/f8a33699-3c7d-4d06-954f-ded481021df4"
             className="mt-4 block text-center text-sm font-medium text-violet-600 hover:underline focus:outline-none focus:ring-2 focus:ring-violet-500"
           >
             {t("policy")}

@@ -27,15 +27,7 @@ export const projects: ProjectItem[] = [
     ],
     client: "IP Symbat",
     link: "https://github.com/MuratOfficial/ecommerce-store",
-    images: [
-      "/projects/project1/1st.PNG",
-      "/projects/project1/2nd.PNG",
-      "/projects/project1/3rd.PNG",
-      "/projects/project1/4th.PNG",
-      "/projects/project1/5th.PNG",
-      "/projects/project1/6th.PNG",
-      "/projects/project1/7th.PNG",
-    ],
+    images: ["/projects/project1/1st.PNG"],
   },
   {
     projectId: "project2",
@@ -46,11 +38,7 @@ export const projects: ProjectItem[] = [
     technologies: ["ReactJS", "Redis", "SCSS", "Django", "PostgreSQL"],
     client: "Headspace Inc.",
     link: "https://headspace.com",
-    images: [
-      "/projects/project2/1st.PNG",
-      "/projects/project2/2nd.PNG",
-      "/projects/project2/3rd.PNG",
-    ],
+    images: ["/projects/project2/1st.PNG"],
   },
   {
     projectId: "project3",
@@ -61,11 +49,7 @@ export const projects: ProjectItem[] = [
     technologies: ["Webflow", "CSS", "PHP", "MySQL"],
     client: "H Influencers",
     link: "https://thehub.com",
-    images: [
-      "/projects/project3/1st.PNG",
-      "/projects/project3/2nd.PNG",
-      "/projects/project3/3rd.PNG",
-    ],
+    images: ["/projects/project3/1st.PNG"],
   },
   {
     projectId: "project4",
@@ -76,11 +60,7 @@ export const projects: ProjectItem[] = [
     technologies: ["Tilda", "CSS", "Figma", "LottieFiles", "PHP", "MySQL"],
     client: "TOO AD",
     link: "https://ano-identity.ru/",
-    images: [
-      "/projects/project4/1st.PNG",
-      "/projects/project4/2nd.PNG",
-      "/projects/project4/3rd.PNG",
-    ],
+    images: ["/projects/project4/1st.PNG"],
   },
   {
     projectId: "project5",
@@ -91,10 +71,39 @@ export const projects: ProjectItem[] = [
     technologies: ["React", "Tailwind", "Django", "DRF", "PostgreSQL"],
     client: "OasisLiving Ltd.",
     link: "https://oasis-living.com/",
-    images: [
-      "/projects/project5/1st.PNG",
-      "/projects/project5/2nd.PNG",
-      "/projects/project5/3rd.PNG",
-    ],
+    images: ["/projects/project5/1st.PNG"],
+  },
+  {
+    projectId: "project6",
+    category: "CMS",
+    label: "Razumno",
+    description:
+      "The development of a marketing website involves the powerful integration of Django, Django REST Framework (DRF), PostgreSQL, and ReactJS. Django serves as the foundation, providing a robust backend framework that facilitates efficient data management, user authentication, and overall website structure. DRF complements Django by enabling the creation of a comprehensive and secure API, allowing seamless communication between the backend and the frontend. PostgreSQL, a powerful open-source relational database, is employed for efficient data storage, retrieval, and management, ensuring scalability and performance. ReactJS, a versatile JavaScript library, forms the frontend, enabling the creation of a dynamic and interactive user interface, optimizing the user experience and engagement on the marketing website.",
+    technologies: ["Tilda", "CMS"],
+    client: "OasisLiving Ltd.",
+    link: "https://rzmn.ru/",
+    images: ["/projects/project6/1.PNG"],
+  },
+  {
+    projectId: "project7",
+    category: "CMS",
+    label: "Numa Creative",
+    description:
+      "The development of a marketing website involves the powerful integration of Django, Django REST Framework (DRF), PostgreSQL, and ReactJS. Django serves as the foundation, providing a robust backend framework that facilitates efficient data management, user authentication, and overall website structure. DRF complements Django by enabling the creation of a comprehensive and secure API, allowing seamless communication between the backend and the frontend. PostgreSQL, a powerful open-source relational database, is employed for efficient data storage, retrieval, and management, ensuring scalability and performance. ReactJS, a versatile JavaScript library, forms the frontend, enabling the creation of a dynamic and interactive user interface, optimizing the user experience and engagement on the marketing website.",
+    technologies: ["Tilda", "CMS"],
+    client: "Numa Creative",
+    link: "https://numacreative.de/",
+    images: ["/projects/project7/1.PNG"],
+  },
+  {
+    projectId: "project8",
+    category: "Promo",
+    label: "F61 Agency",
+    description:
+      "The development of a marketing website involves the powerful integration of Django, Django REST Framework (DRF), PostgreSQL, and ReactJS. Django serves as the foundation, providing a robust backend framework that facilitates efficient data management, user authentication, and overall website structure. DRF complements Django by enabling the creation of a comprehensive and secure API, allowing seamless communication between the backend and the frontend. PostgreSQL, a powerful open-source relational database, is employed for efficient data storage, retrieval, and management, ensuring scalability and performance. ReactJS, a versatile JavaScript library, forms the frontend, enabling the creation of a dynamic and interactive user interface, optimizing the user experience and engagement on the marketing website.",
+    technologies: ["Tilda", "CMS"],
+    client: "F61 Agency",
+    link: "https://f61agency.com/",
+    images: ["/projects/project8/1.PNG"],
   },
 ];

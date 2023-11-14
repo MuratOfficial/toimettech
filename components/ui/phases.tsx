@@ -22,7 +22,7 @@ function Phases() {
     <section className="h-max w-full  justify-center items-center pb-36 lg:p-16 xs:p-8 overflow-x-hidden relative">
       <Image
         alt="cone"
-        className="absolute lg:right-20 sm:top-[1100px] xs:collapse hover:opacity-60 dropshadow-lg hover:translate-x-6 transition duration-500 delay-150"
+        className="absolute lg:visible lg:top-[350px] lg:right-20 sm:top-[1100px] xs:collapse hover:opacity-60 dropshadow-lg hover:translate-x-6 transition duration-500 delay-150"
         height={200}
         width={200}
         src="/3.png"
