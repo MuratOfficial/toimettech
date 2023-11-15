@@ -41,6 +41,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
+        <meta
+          name="google-site-verification"
+          content="-vrwyp1HYUlrmkMe7vpqkO5K2qSbOJSeVi6dkNFEVDc"
+        />
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11411015331" />
         <Script id="google-analytics">
           {`window.dataLayer = window.dataLayer || [];
