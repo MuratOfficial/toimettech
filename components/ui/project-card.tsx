@@ -10,7 +10,7 @@ interface ProjectCardProps {
 
 function ProjectCard({ data }: ProjectCardProps) {
   return (
-    <Link href={data.link || ""}>
+    <Link href={data.link || ""} target="_blank">
       <div
         className={cn(
           "card lg:w-[400px] bg-scroll lg:h-[410px] xs:w-[320px] xs:h-[340px] bg-white rounded-lg group/item flex flex-col justify-end hover:brightness-90 transition duration-150 delay-75"
@@ -25,7 +25,7 @@ function ProjectCard({ data }: ProjectCardProps) {
           </div>
           <div className="justify-between flex flex-row">
             <div className="mt-auto flex flex-row lg:gap-x-4 xs:gap-x-2 gap-y-2 w-full flex-wrap">
-              {data.technologies.slice(0, 3).map((el, elidx) => (
+              {data?.technologies?.slice(0, 3).map((el, elidx) => (
                 <span
                   key={elidx}
                   className=" bg-neutral-200 bg-opacity-60 py-1 px-4 rounded-md text-slate-900 xs:text-xs lg:text-sm"

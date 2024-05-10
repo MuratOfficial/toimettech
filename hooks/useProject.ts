@@ -11,7 +11,7 @@ interface ProjectProps {
 const useProject = create(
   persist<ProjectProps>(
     (set) => ({
-      items: [],
+      items: [...projects],
       filterItems: (category: string) => {
         let filteredList = projects.filter(
           (item) => item.category === category
